@@ -1,0 +1,319 @@
+/*
+Author: Omar Faruk
+Project Title: Building A tribute Page
+Company: Free Code Camp
+Project Started : Mon,Aug 28,2017 23:30
+Project Finished: Tuesday,Aug 29,2017 1:30
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.slider-div{
+
+}
+
+.slider-div img{
+    width:100%;
+    height:600px;
+}
+
+
+.contents-div{
+
+}
+
+#home{
+    overflow-y: hidden;
+    position:relative;
+
+}
+
+.home_heading{
+    text-align: center;
+    margin-top:200px;
+
+}
+
+.home_heading h1{
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.home_content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: inherit;
+
+
+}
+
+.home_content p{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight:300
+}
+
+.back_img_1{
+    height: 300px;
+    width: 100%;
+    background-image: url(images/5.jpg);
+    
+    background-repeat:no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+
+
+/*Early Div Styles*/
+
+#early{
+    overflow-y: hidden;
+
+}
+
+.early_heading{
+    text-align: center;
+    margin-top:200px
+}
+
+.early_heading h1{
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.early_content{
+    margin-top:50px;
+    margin-bottom: 50px;
+    line-height:inherit;
+}
+
+
+.early_content p{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight:300
+}
+
+
+.early_content img{
+    width:50%;
+    height:200px;
+    margin-top: 30px;
+}
+
+.early_content h3{
+    float:right;
+    font-size:25px;
+    font-weight: bolder;
+    margin-top:100px;
+    margin-right:250px;
+}
+
+
+
+.back_img_2{
+    height: 300px;
+    width: 100%;
+    background-image: url(images/6.jpg);
+
+    background-repeat:no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+
+}
+
+/*Education*/
+
+#education{
+    overflow-y: hidden;
+
+}
+
+.education_heading{
+    text-align: center;
+    margin-top:200px
+}
+
+.education_heading h1{
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.education_content{
+    margin-top:50px;
+    margin-bottom: 50px;
+    line-height:inherit;
+}
+
+
+.education_content p{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight:300
+}
+
+
+.back_img_3{
+    height: 300px;
+    width: 100%;
+    background-image: url(images/9.jpg);
+
+    background-repeat:no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+
+}
+
+#achievements{
+    overflow-y: hidden;
+
+}
+
+.achievements_heading{
+    text-align: center;
+    margin-top:200px
+}
+
+.achievements_heading h1{
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.achievements_content{
+    margin-top:50px;
+    margin-bottom: 50px;
+    line-height:inherit;
+}
+
+
+.achievements_content p{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight:300
+}
+
+.achievements_content h3{
+    font-size:30px;
+    font-weight:bolder;
+    margin-top: 30px;
+    margin-bottom: 30px
+
+}
+
+
+.navigation-bar{
+    width:100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px
+}
+
+.navigation-bar ul{
+    background-color: slategrey;
+    margin: 0;
+    padding: 0
+
+}
+.navigation-bar li{
+    display: inline-block;
+    font-family: tahoma;
+    font-size: 18px;
+    padding:20px;
+    color: bisque;
+
+
+}
+
+.navigation-bar li:hover{
+    background-color: lightblue;
+}
+
+.navigation-bar a{
+    text-decoration: none;
+}
+
+
+.nav-hide{
+    background-color: red;
+    width: 50px;
+    height:50px;
+    border-radius:10px;
+    float: left;
+    margin-bottom: 100px;
+    z-index: 2;
+}
+
+.footer-div{
+    width: 100%;
+    height: 330px;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+
+.footer-div h1{
+    color: black;
+    font-wight:900;
+}
+.footer-div p{
+    font-family:"DejaVu Sans";
+    font-size:13px;
+    font-weight:500;
+}
+
+.footer-div img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.footer-div a{
+    font-family:SansSerif;
+    font-size:15px;
+    text-decoration: none;
+}
+
+.references{
+
+    border-right:2px solid black;
+    height:220px;
+    margin-top:20px;
+
+}
+
+.references h1{
+    padding-top: 30px;
+}
+
+
+.more_links {
+    border-right:2px solid black;
+    margin-top:20px;
+    height:220px;
+
+}
+
+.more_links h1{
+    padding-top: 30px;
+}
+
+.author{
+    padding-top: 30px;
+
+
+
+}
+
+.author p{
+    padding-bottom:60px;
+}
